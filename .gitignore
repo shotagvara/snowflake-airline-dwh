@@ -1,0 +1,27 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow.db-*
+simple_auth_manager_passwords.json.generated
+
+# Local Airflow configuration
+config/airflow.cfg
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
