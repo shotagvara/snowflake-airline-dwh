@@ -25,3 +25,7 @@ config/airflow.cfg
 # OS files
 .DS_Store
 Thumbs.db
+
+# Streamlit
+streamlit_clone/.streamlit/secrets.toml
+streamlit_clone/.streamlit/cache/
