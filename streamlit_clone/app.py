@@ -27,7 +27,7 @@ if st.button("Создать клон"):
         cursor = connection.cursor()
 
         statements = [
-            f"CREATE DATABASE {clone_name} CLONE AIRLINE_DWH",
+            f"CREATE OR REPLACE DATABASE {clone_name} CLONE AIRLINE_DWH",
 
             f"GRANT USAGE ON DATABASE {clone_name} "
             "TO ROLE AIRLINE_US_ANALYST",
